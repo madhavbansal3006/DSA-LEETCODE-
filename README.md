@@ -17,7 +17,7 @@ Auto-synced LeetCode solutions using LeetSync.
 | | |
 |---|---|
 | Total Solved | 250+ |
-| Medium | 85+ |
+| Medium | 90+ |
 | Beats | 95%+ users |
 | Active Days | 115+ |
 | Badge | 100 Days 2026 |
