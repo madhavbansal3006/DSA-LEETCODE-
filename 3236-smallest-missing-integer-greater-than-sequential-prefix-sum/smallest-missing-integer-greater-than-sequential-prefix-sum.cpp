@@ -11,19 +11,10 @@ public:
                 break;
             }
         }
-        int ans=sum;
-        while(true){
-            bool ispresent=false;
-            for(int x: nums){
-                if(x==ans){
-                    ispresent=true;
-                    break;
-                }
-            }
-            if(!ispresent) return ans;
-
-            ans++;
+        unordered_set<int>srch(nums.begin(),nums.end());
+        while(srch.count(sum)){
+            sum++;
         }
-        return ans;
+        return sum;
     }
 };
